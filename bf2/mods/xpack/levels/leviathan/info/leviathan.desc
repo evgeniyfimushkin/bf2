@@ -1,0 +1,13 @@
+<map gsid="304">
+	<name> Leviathan </name>
+	<briefing locid="LOADINGSCREEN_MAPDESCRIPTION_Leviathan">map description for modders maps not localized (english only)</briefing>
+	<music> common/sound/menu/music/load_MEC_music.ogg </music>
+	<isnightmap> Yes </isnightmap>
+	<modes>
+		<mode type="gpm_cq">
+			<maptype ai="0" players="16" type="assault" locid="GAMEMODE_DESCRIPTION_assault">Unlocalized test for this mode on this map</maptype>
+			<maptype players="32" type="assault" locid="GAMEMODE_DESCRIPTION_assault">Unlocalized test for this mode on this map</maptype>
+			<maptype players="64" type="assault" locid="GAMEMODE_DESCRIPTION_assault">Unlocalized test for this mode on this map</maptype>
+		</mode>
+	</modes>
+</map>

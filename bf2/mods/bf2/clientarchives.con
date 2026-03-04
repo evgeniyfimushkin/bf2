@@ -1,0 +1,6 @@
+fileManager.mountArchive Objects_client.zip Objects
+fileManager.mountArchive Common_client.zip Common
+fileManager.mountArchive Menu_client.zip Menu
+fileManager.mountArchive Fonts_client.zip Fonts
+fileManager.mountArchive Shaders_client.zip Shaders
+fileManager.mountArchive Booster_client.zip Objects

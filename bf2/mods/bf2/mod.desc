@@ -1,0 +1,9 @@
+<mod>
+	<title> MODDESC_BF2_TITLE </title>
+	<desc> MODDESC_TEXT </desc>
+	<url> http://www.eagames.com/official/battlefield/battlefield2/us/home.jsp </url>
+	<logo> mod.png </logo>
+	<icon> mod_icon.png </icon>
+	<music> common/sound/menu/music/menu_music.ogg </music> 
+	<version> BF2 1.5 </version>
+</mod>

@@ -1,0 +1,6 @@
+fileManager.mountArchive Objects_server.zip Objects
+fileManager.mountArchive Menu_server.zip Menu
+fileManager.mountArchive Common_server.zip Common
+fileManager.mountArchive Booster_server.zip Objects
+
+

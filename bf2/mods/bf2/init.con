@@ -1,0 +1,9 @@
+rem ** gameLogic hasn't been initialized yet **
+
+
+rem *** These should be noops in server & editor
+bf2Engine.playMovie Movies\EA.bik 1
+bf2Engine.playMovie Movies\dice.bik 1
+bf2Engine.playMovie Movies\legal.bik 1
+bf2Engine.playMovie Movies\intro.bik 0
+bf2Engine.playMovie Movies\welcome.bik 0

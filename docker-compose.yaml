@@ -1,0 +1,23 @@
+services:
+    bf2:
+        container_name: bf2
+        image: evgeniyfimushkin/bf2:1.0
+        build: .
+        ports:
+            - "16567:16567/udp"
+            - "29900:29900/udp"
+        # Outgoing UDP 27900
+        # Outgoing UDP 29910
+        # Outgoing UDP 29960
+        # Outgoing TCP 80
+        # Incoming UDP 16567 (might be different - see sv.gameport in your mods/bf2/settings/serversettings.con)
+        # Incoming UDP 29900 (might be different - see sv.gameSpyPort in your mods/bf2/settings/serversettings.con)
+
+        # environment:
+        #     PORT: 27016
+        # volumes:
+        #     - ./configs/server.cfg:/css/cstrike/cfg/server.cfg
+        #     - ./configs/admins_simple.ini:/css/cstrike/addons/sourcemod/configs/admins_simple.ini
+        restart: always
+        tty: true
+        stdin_open: true

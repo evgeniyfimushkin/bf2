@@ -1,0 +1,54 @@
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+INSTALLATION OF (OR UPGRADE TO) THE BF2HUB UNRANKED SERVER FILES R3:
+====================================================================
+
+The following commands need to be invoked from the BF2 server's installation directory!
+
+1. Download and install the official EA UNRANKED server software 1.5 (you may ignore this step for upgrade)
+
+   example -> http://tutorials.section6.net/home/how-to-set-up-a-dedicated-battlefield2-server
+   
+2. Backup start.sh (if needed)
+
+   cp -a start.sh backup_`date +%Y-%m-%d_%H-%M-%S`_start.sh
+
+3. Extract archive to the BF2 server's directory
+
+   tar xzvf BF2Hub-Unranked-Linux-R3.tar.gz
+   
+4. Make sure that bin/ia-32/libbf2hub.so and bin/amd-64/libbf2hub.so have executable bit set
+
+   chmod +x bin/ia-32/libbf2hub.so bin/amd-64/libbf2hub.so
+
+5. Overwrite contents of start.sh with start_bf2hub.sh
+
+   cat start_bf2hub.sh > start.sh
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+FINAL STATEMENT ABOUT BF2HUB AND WARRANTY:
+==========================================
+
+The goal of BF2Hub is to make Battlefield2 available and playable in the same manner as if GameSpy had never
+closed, with minimum work for the players, admins and providers. This is a challenging task because of the
+time factor, the large amount of data to transfer and finally the production and maintenance of the whole
+BF2Hub Project.
+
+Our services and software is free of charge for everyone and provided "AS IS" and "AS AVAILABLE" without
+warranty. We work hard to make your experience enjoyable but we can't guarantee that the BF2Hub services
+and software will work as expected.
+
+If you don't agree to this "Final Statement about BF2Hub" or to any of the BF2Hub Terms listed in (but not
+limited to) the Terms & Conditions section on www.BF2Hub.com you must not use any of the BF2Hub services
+and/or software at all.
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+CONTACT:
+========
+
+Web: www.bf2hub.com
+Support: www.bf2hub.com/support
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
