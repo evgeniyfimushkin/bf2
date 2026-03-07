@@ -10,7 +10,7 @@ sv.allowExternalViews 1
 sv.allowNoseCam 1
 sv.hitIndicator 1
 sv.maxPlayers 64
-sv.numPlayersNeededToStart 2
+sv.numPlayersNeededToStart 1
 sv.notEnoughPlayersRestartDelay 15
 sv.startDelay 15
 sv.endDelay 15
@@ -45,8 +45,8 @@ sv.timeBeforeRestartMap 30
 sv.autoBalanceTeam 0
 sv.teamRatioPercent 100
 sv.coopBotRatio	50
-sv.coopBotCount	16
-sv.coopBotDifficulty 50
+sv.coopBotCount	10
+sv.coopBotDifficulty 80
 sv.voipEnabled 1
 sv.voipQuality 3
 sv.voipServerRemote 0
