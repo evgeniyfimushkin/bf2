@@ -5,6 +5,7 @@ docker run --rm -it \
   -p 55124:55124/udp \
   -p 55125:55125/udp \
   -p 4711:4711/tcp \
-  -v "./bf2_settings/nobots:/bf2/mods/bf2/settings" \
+  -v "./bf2_settings/bots/maplist.con:/bf2/mods/bf2/settings/maplist.con" \
+  -v "./bf2_settings/bots/serversettings.con:/bf2/mods/bf2/settings/serversettings.con" \
   evgeniyfimushkin/bf2:1.0 \
   /bin/bash -c "cd bf2 && ./start_bf2hub.sh"
