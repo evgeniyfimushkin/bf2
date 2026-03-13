@@ -8,4 +8,4 @@ RUN mkdir /bf2
 COPY bf2 /bf2
 COPY bf2hub /bf2
 
-CMD cd bf2 && ./start_bf2hub.sh 
+CMD cd bf2 && exec ./start_bf2hub.sh +modPath mods/xpack

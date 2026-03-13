@@ -8,4 +8,4 @@ docker run --rm -it \
   -v "./bf2_settings/bots/maplist.con:/bf2/mods/bf2/settings/maplist.con" \
   -v "./bf2_settings/bots/serversettings.con:/bf2/mods/bf2/settings/serversettings.con" \
   evgeniyfimushkin/bf2:1.0 \
-  /bin/bash -c "cd bf2 && ./start_bf2hub.sh"
+  /bin/bash -c "cd bf2 && ./start_bf2hub.sh +modPath mods/xpack"
